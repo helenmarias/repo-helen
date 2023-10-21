@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    scroll-margin-top: 110px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(187, 161, 194);
+}
+
+.cabecalho {
+    background-color: rgb(243, 196, 29);
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.lista-menu li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.lista-menu li a:hover {
+    color: black;
+    font-size: 20px;
+    transition: font-size 0.3s;
+}
+
+.lista-menu li a {
+    color: peru;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nova-colecao {
+    background-color: rgb(239, 157, 75);
+    text-align: center;
+    padding: 20px; 
+}
+
+.nova-colecao ol {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0;
+}
+
+.nova-colecao li {
+    margin: 0 10px; 
+}
+
+.nova-colecao img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.link-site {
+    display: block; 
+    text-align: center;
+    margin-top: 20px; 
+}
+
+
+.cliente {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    flex: 1; 
+    text-align: center;
+}
+
+.cliente h4 {
+    font-size: 20px;
+}
+
+.cliente small {
+    font-size: 14px;
+}
+
+.cliente p {
+    font-size: 16px;
+}
+
+.secao-pedidos {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    flex: 1; 
+    text-align: center;
+
+}
+
+.secao-fale-conosco {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}

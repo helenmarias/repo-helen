@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha Projeto PretaLAB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="info-usuario">
+            <p>
+                <strong class="nome">Helen Maria</strong>
+                <small>Último login em: 20/10/2023 às 8h20</small>
+            </p>
+        </div>
+        <nav id="meu-id" class="navegacao-menu">
+            <ul class="lista-menu">
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <strong>Início</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Clientes">
+                        <strong>Nossos Clientes</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Pedidos">
+                        <strong>Pedidos</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Fale Conosco">
+                        <strong>Fale Conosco</strong>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="nova-colecao">
+            <div class="titulo-secao-colecao">
+                <h1>Nova coleção</h1>
+                <h2>Ganhe <b>10%</b> OFF na primeira compra!</h2>
+            </div>
+            <ol>
+                <li>
+                    <figure>
+                        <img src="./roupas/1.jpg" alt="Mulher negra usando camisa e calça social laranja e lenço na cabeça da mesma cor">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./roupas/2.jpg" alt="Mulher negra, com cabelo cacheado, vestindo um vestido estampado com várias cores">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./roupas/3.jpg" alt="Mulher negra sentada, usando uma roupa de seda amarela e com a mão na cabeça">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./roupas/4.jpg" alt="Mulher negra de perfil, usando um conjunto de top e shorts na cor branca">
+                    </figure>
+                </li>
+            </ol>
+            <a class="link-site" href="https://www.cea.com.br" target="_blank">Clique aqui para conferir</a>
+        </section>
+        
+        <section class="secao-clientes" id="Clientes">
+            <h3>Nossos Clientes</h3>
+            <div class="secao-avaliacao">
+                <div class="cliente">
+                    <h4>Isabela Alves</h4>
+                    <small><i>Avaliado em: 18/10/2023 às 16h00</i></small>
+                    <p>Fiz a compra no dia 10 de outubro e chegou bem rápido. Ótimo atendimento!</p>
+                </div>
+        
+                <div class="cliente">
+                    <h4>Vitória Lopes</h4>
+                    <small><i>Avaliado em: 02/10/2023 às 9h45</i></small>
+                    <p>Comprei um conjunto e adorei os tecidos. Os produtos são como na descrição e a entrega foi rápida.</p>
+                </div>
+        
+                <div class="cliente">
+                    <h4>Ana Beatriz</h4>
+                    <small><i>Avaliado em: 05/10/2023 às 22h00</i></small>
+                    <p>A compra chegou dentro do prazo. Pedi a numeração errada, mas fiz a solicitação de troca e fui bem atendida. As cores da peça que comprei variaram um pouco, mas nada muito diferente.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="secao-pedidos" id="pedidos">
+            <h3>Meus Pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor (R$)</th>
+                        <th>Data da compra</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Blusa</td>
+                        <td>1</td>
+                        <td>50,00</td>
+                        <td>25/09/2023</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Vestido</td>
+                        <td>1</td>
+                        <td>60,00</td>
+                        <td>10/10/2023</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Camiseta</td>
+                        <td>1</td>
+                        <td>40,00</td>
+                        <td>03/10/2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="secao-Fale-Conosco" id="Fale Conosco">
+            <h3>Fale Conosco</h3>
+            <div>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite o seu nome"/>
+                    <br/>
+                    <label for="emailpessoal">E-mail:</label>
+                    <input type="email" id="emailpessoal" placeholder="Digite o seu e-mail"/>
+                    <br/>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"></textarea>
+                    <br/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright | 2023 | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
